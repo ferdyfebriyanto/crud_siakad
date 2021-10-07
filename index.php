@@ -102,14 +102,14 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>CRUD 2020 PHP & MySQL + Bootstrap 4</title>
+	<title>KUIS 1 CLOUD COMPUTING/title>
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 </head>
 <body>
 <div class="container">
 
-	<h1 class="text-center">CRUD PHP & MySQL + Bootstrap 4</h1>
-	<h2 class="text-center">@Ngodingpintar</h2>
+	<h1 class="text-center">KUIS 1 CLOUD COMPUTING</h1>
+	<h2 class="text-center">Ferdy Febriyanto TI3A</h2>
 
 	<!-- Awal Card Form -->
 	<div class="card mt-3">
