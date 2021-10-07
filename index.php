@@ -102,7 +102,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>KUIS 1 CLOUD COMPUTING/title>
+	<title>KUIS 1 CLOUD COMPUTING</title>
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 </head>
 <body>
