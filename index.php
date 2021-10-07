@@ -3,7 +3,7 @@
 	$server = "10.0.0.132";
 	$user = "admin";
 	$pass = "Arema087*";
-	$database = "crud_siakad";
+	$database = "db_crud_siakad";
 
 	$koneksi = mysqli_connect($server, $user, $pass, $database)or die(mysqli_error($koneksi));
 
