@@ -107,7 +107,7 @@
 </head>
 <body>
 
-<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
 	<a class="navbar-brand" href="#">SIAKAD POLINEMA</a>
 	<button class="navbar-toggler hidden-lg-up" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
 		aria-expanded="false" aria-label="Toggle navigation"></button>
@@ -136,10 +136,9 @@
 
 
 <div class="container">
-	<div class="row col-md-12 p-5">
-		<h1 class="text-center">UTS CLOUD COMPUTING</h1><br>
-		<h2 class="text-center">Ferdy Febriyanto TI3A</h2>
-	</div>
+	<h1 class="text-center">UTS CLOUD COMPUTING</h1><br>
+	<h2 class="text-center">Ferdy Febriyanto TI3A</h2>
+</div>
 	
 
 	<!-- Awal Card Form -->
@@ -151,23 +150,23 @@
 	    <form method="post" action="">
 	    	<div class="form-group">
 	    		<label>Nim</label>
-	    		<input type="text" name="tnim" value="<?=@$vnim?>" class="form-control" placeholder="Input Nim anda disini!" required>
+	    		<input type="text" name="tnim" value="<?=@$vnim?>" class="form-control" placeholder="Masukkan NIM anda!" required>
 	    	</div>
 	    	<div class="form-group">
 	    		<label>Nama</label>
-	    		<input type="text" name="tnama" value="<?=@$vnama?>" class="form-control" placeholder="Input Nama anda disini!" required>
+	    		<input type="text" name="tnama" value="<?=@$vnama?>" class="form-control" placeholder="Masukkan Nama anda!" required>
 	    	</div>
 	    	<div class="form-group">
 	    		<label>Alamat</label>
-	    		<textarea class="form-control" name="talamat"  placeholder="Input Alamat anda disini!"><?=@$valamat?></textarea>
+	    		<textarea class="form-control" name="talamat"  placeholder="Masukkan alamat anda!"><?=@$valamat?></textarea>
 	    	</div>
 	    	<div class="form-group">
 	    		<label>Program Studi</label>
 	    		<select class="form-control" name="tprodi">
 	    			<option value="<?=@$vprodi?>"><?=@$vprodi?></option>
 	    			<option value="D3-MI">D3-MI</option>
-	    			<option value="S1-SI">S1-SI</option>
-	    			<option value="S1-TI">S1-TI</option>
+	    			<option value="D4-TI">D4-TI</option>
+	    			<option value="D4-SIB">D4-TI</option>
 	    		</select>
 	    	</div>
 

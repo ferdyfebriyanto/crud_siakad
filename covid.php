@@ -19,7 +19,7 @@ $data = json_decode($url, true);
 <body>
     <nav class="navbar navbar-expand navbar-dark bg-dark">
         <div class="nav navbar-nav">
-            <a class="nav-item nav-link active" href="#"><i class="fa fa-fw fa-home"></i> Home <span class="visually-hidden"></span></a>
+            <a class="nav-item nav-link active" href="index.php"><i class="fa fa-fw fa-home"></i> Home <span class="visually-hidden"></span></a>
         </div>
     </nav>
 
