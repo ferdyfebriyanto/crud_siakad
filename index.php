@@ -138,9 +138,10 @@
 <div class="container">
 	<h1 class="text-center">UTS CLOUD COMPUTING</h1><br>
 	<h2 class="text-center">Ferdy Febriyanto TI3A</h2>
-</div>
 	
-
+<div class="container">
+	
+</div>
 	<!-- Awal Card Form -->
 	<div class="card mt-3">
 	  <div class="card-header bg-primary text-white">
