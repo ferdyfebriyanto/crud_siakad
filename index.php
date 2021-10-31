@@ -117,7 +117,7 @@
 		  <a class="nav-link" href="index.php">Home <span class="sr-only">(current)</span></a>
 		</li>
 		<li class="nav-item active">
-		  <a class="nav-link" href="sejarah.php">Profil</a>
+		  <a class="nav-link" href="sejarah.html">Profil</a>
 		</li>
 		<li class="nav-item active">
 		  <a class="nav-link" href="covid.php" target="_blank">Informasi Covid-19</a>
