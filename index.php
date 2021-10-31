@@ -116,12 +116,8 @@
 		<li class="nav-item active">
 		  <a class="nav-link" href="index.php">Home <span class="sr-only">(current)</span></a>
 		</li>
-		<li class="nav-item dropdown active">
-		  <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Profil</a>
-		  <div class="dropdown-menu" aria-labelledby="dropdownId">
-			<a class="dropdown-item" href="sejarah.html">Sejarah</a>
-			<a class="dropdown-item" href="visimisi.html">Visi Misi</a>
-		  </div>
+		<li class="nav-item active">
+		  <a class="nav-link" href="sejarah.php">Profil</a>
 		</li>
 		<li class="nav-item active">
 		  <a class="nav-link" href="covid.php" target="_blank">Informasi Covid-19</a>
