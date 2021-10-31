@@ -116,15 +116,15 @@
 		<li class="nav-item active">
 		  <a class="nav-link" href="index.php">Home <span class="sr-only">(current)</span></a>
 		</li>
-		<li class="nav-item">
-		  <a class="nav-link" href="https://objectstorage.ap-osaka-1.oraclecloud.com/n/axfojrocu9l6/b/site/o/index.php" target="_blank">Informasi Covid-19</a>
-		</li>
 		<li class="nav-item dropdown">
-		  <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+		  <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Profil</a>
 		  <div class="dropdown-menu" aria-labelledby="dropdownId">
-			<a class="dropdown-item" href="#">Action 1</a>
-			<a class="dropdown-item" href="#">Action 2</a>
+			<a class="dropdown-item" href="#">Sejarah</a>
+			<a class="dropdown-item" href="#">Visi Misi</a>
 		  </div>
+		</li>
+		<li class="nav-item">
+		  <a class="nav-link" href="covid.php" target="_blank">Informasi Covid-19</a>
 		</li>
 	  </ul>
 	  <form class="form-inline my-2 my-lg-0">
@@ -136,8 +136,11 @@
 
 
 <div class="container">
-	<h1 class="text-center">UTS CLOUD COMPUTING</h1>
-	<h2 class="text-center">Ferdy Febriyanto TI3A</h2>
+	<div class="row col-md-12 p-5">
+		<h1 class="text-center">UTS CLOUD COMPUTING</h1>
+		<h2 class="text-center">Ferdy Febriyanto TI3A</h2>
+	</div>
+	
 
 	<!-- Awal Card Form -->
 	<div class="card mt-3">
