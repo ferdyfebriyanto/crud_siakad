@@ -137,7 +137,7 @@
 
 <div class="container">
 	<div class="row col-md-12 p-5">
-		<h1 class="text-center">UTS CLOUD COMPUTING</h1>
+		<h1 class="text-center">UTS CLOUD COMPUTING</h1><br>
 		<h2 class="text-center">Ferdy Febriyanto TI3A</h2>
 	</div>
 	
