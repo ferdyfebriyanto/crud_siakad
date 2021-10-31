@@ -102,13 +102,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>KUIS 1 CLOUD COMPUTING</title>
+	<title>UTS CLOUD COMPUTING</title>
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 </head>
 <body>
 <div class="container">
 
-	<h1 class="text-center">KUIS 1 CLOUD COMPUTING</h1>
+	<h1 class="text-center">UTS CLOUD COMPUTING</h1>
 	<h2 class="text-center">Ferdy Febriyanto TI3A</h2>
 
 	<!-- Awal Card Form -->
