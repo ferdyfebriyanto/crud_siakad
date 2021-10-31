@@ -1,6 +1,6 @@
 <?php
 	//Koneksi Database
-	$server = "10.0.0.132";
+	$server = "10.0.0.188";
 	$user = "admin";
 	$pass = "Arema087*";
 	$database = "db_crud_siakad";
