@@ -116,24 +116,19 @@
 		<li class="nav-item active">
 		  <a class="nav-link" href="index.php">Home <span class="sr-only">(current)</span></a>
 		</li>
-		<li class="nav-item dropdown">
+		<li class="nav-item dropdown active">
 		  <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Profil</a>
 		  <div class="dropdown-menu" aria-labelledby="dropdownId">
-			<a class="dropdown-item" href="#">Sejarah</a>
-			<a class="dropdown-item" href="#">Visi Misi</a>
+			<a class="dropdown-item" href="sejarah.html">Sejarah</a>
+			<a class="dropdown-item" href="visimisi.html">Visi Misi</a>
 		  </div>
 		</li>
-		<li class="nav-item">
+		<li class="nav-item active">
 		  <a class="nav-link" href="covid.php" target="_blank">Informasi Covid-19</a>
 		</li>
 	  </ul>
-	  <form class="form-inline my-2 my-lg-0">
-		<input class="form-control mr-sm-2" type="text" placeholder="Search">
-		<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-	  </form>
 	</div>
   </nav>
-
 
 <div class="container">
 	<h1 class="text-center">UTS CLOUD COMPUTING</h1><br>
