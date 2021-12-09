@@ -10,4 +10,4 @@ RUN mkdir /app \
  
 COPY www/ /crud_siakad/www
 
-RUN cp -r /crud_siakad/www/* /var/www/html.
+RUN cp -r /crud_siakad/www/* /var/www/html/.
