@@ -1,9 +1,9 @@
 <?php
 	//Koneksi Database
-	$server = "10.0.0.188";
+	$server = "10.0.0.203";
 	$user = "admin";
 	$pass = "Arema087*";
-	$database = "db_crud_siakad";
+	$database = "db_mhs";
 
 	$koneksi = mysqli_connect($server, $user, $pass, $database)or die(mysqli_error($koneksi));
 
@@ -102,7 +102,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>UTS CLOUD COMPUTING</title>
+	<title>UAS CLOUD COMPUTING</title>
+	<meta name="google-site-verification" content="goWAV9Rdi2Yaksu1knGTGCPhyPT-G7SIy6AIirqdbNo" />
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 </head>
 <body>
@@ -127,7 +128,7 @@
   </nav>
 
 <div class="container">
-	<h1 class="text-center">UTS CLOUD COMPUTING</h1><br>
+	<h1 class="text-center">UAS CLOUD COMPUTING</h1><br>
 	<h2 class="text-center">Ferdy Febriyanto TI3A</h2>
 	
 <div class="container">

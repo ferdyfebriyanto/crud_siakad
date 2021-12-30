@@ -1,0 +1,39 @@
+version : '3.5'
+services:
+ php-apache-environment:
+  image: ferdyfebriyanto/lakasir-uas
+  container_name: php-cache
+  depends_on:
+    - db
+  volumes:
+    - ./php/src:/var/www/html/
+  ports:
+    - 8000:80
+  networks:
+    -backend
+
+db:
+  container_name: db
+  image: mysql
+  restart: always
+  environment:
+    MYSQL_ROOT_PASSWORD: admin
+   MYSQL_DATABASE: Arema087*
+  ports:
+    - ${SERVER_PORT_DB:-33060}:3306
+  volumes:
+    - db:/var/lib/mysql
+    - ./tmhs.sql:/docker-entrypoint-initdb.d/tmhss.sql
+  networks:
+    -backend 
+
+volumes:
+  db:
+
+networks:
+  backend:
+    name: backend-network
+    ipam:
+      driver: default
+      config: 
+        - subnet: 172.20.0.0/24
